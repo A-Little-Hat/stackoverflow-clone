@@ -1,0 +1,25 @@
+{
+  "name": "stackoverflow-clone",
+  "version": "1.0.0",
+  "description": "- Live: http://clone-of-stackoverflow.vercel.app/",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run start",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salihozdemir/stackoverflow-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salihozdemir/stackoverflow-clone/issues"
+  },
+  "homepage": "https://github.com/salihozdemir/stackoverflow-clone#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
